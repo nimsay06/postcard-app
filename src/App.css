@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App > .flies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.postcards {
+  background-color: bisque;
+  border-radius: 15px;
+  border: red 2px solid;
+}
+
+.buttonContainer {
+  margin: 10px;
+  width: 400px;
 }
